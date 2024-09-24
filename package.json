@@ -1,0 +1,28 @@
+{
+  "name": "ticket_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "netlify-cli": "^17.36.2",
+    "netlify-lambda": "^2.0.16",
+    "punycode": "^2.3.1",
+    "sslcommerz-lts": "^1.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "description": ""
+}
